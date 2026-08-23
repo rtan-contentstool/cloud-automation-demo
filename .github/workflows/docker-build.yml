@@ -44,3 +44,5 @@ jobs:
             docker compose up -d
 
             docker compose ps
+
+            docker volume ls
