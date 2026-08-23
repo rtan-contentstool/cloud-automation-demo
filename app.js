@@ -7,7 +7,7 @@ const server = http.createServer((req, res) => {
         "Content-Type": "text/plain; charset=utf-8"
     });
 
-    res.end("Cloud Automation App v2");
+    res.end("Cloud Automation App v1");
 });
 
 server.listen(PORT, "0.0.0.0", () => {
