@@ -37,7 +37,7 @@ jobs:
           key: ${{ secrets.EC2_SSH_KEY }}
 
           script: |
-            cd ~/cloud-automation-app
+            cd ~/cloud-automation-demo
 
             docker compose pull
 
