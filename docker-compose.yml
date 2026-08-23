@@ -1,0 +1,10 @@
+services:
+
+  app:
+    image: contentstool/cloud-automation-app:latest
+    container_name: cloud-automation-app
+
+    ports:
+      - "3000:3000"
+
+    restart: unless-stopped
