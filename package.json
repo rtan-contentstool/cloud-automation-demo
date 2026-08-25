@@ -1,9 +1,0 @@
-{
-  "name": "cloud-automation-app",
-  "version": "1.0.0",
-  "description": "GitHub Actions Docker Build Practice",
-  "main": "app.js",
-  "scripts": {
-    "start": "node app.js"
-  }
-}
